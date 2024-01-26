@@ -1,0 +1,21 @@
+---
+title: "Exercise_2b"
+author: "Sarah"
+date: "2024-01-26"
+output: html_document
+---
+
+New plot for a new exercise!
+```{r}
+x<-c(2,3,5,8,9,11,15)
+print(x)
+```
+```{r}
+y<-x/3+(x^2)
+print(y)
+```
+PLOT!
+
+```{r}
+plot(x,y)
+```
